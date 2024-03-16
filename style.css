@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote-container {
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-container button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
